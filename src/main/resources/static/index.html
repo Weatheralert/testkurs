@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS практика</title>
+
+    <!-- Bootstrap reboot (для сброса стилей) -->
+    <link rel="stylesheet" href="libs/bootstrap-reboot.min.css">
+
+    <!-- Bootstrap сетка -->
+    <link rel="stylesheet" href="libs/bootstrap-grid.min.css">
+
+    <!-- Шрифты с Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Стили сайта -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- Шапка position: sticky -->
+
+<div class="navbar">
+    <div class="image">
+        <a href="#"><img src="images/name.png" alt=""></a>
+    </div>
+    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    <div class="navbar-menu">
+        <ul>
+            <li class="padding"><a href="#">О нас</a></li>
+            <li class="padding"><a href="#">Галерея</a></li>
+            <li class="padding"><a href="#">Аренда</a></li>
+            <li><a href="#">Контакты</a></li>
+        </ul>
+    </div>
+    <div class="number">
+        <ul >
+            <li><a href="#">+375 44 585-77-77 <img src="images/viber.png" alt="" class="viber"></a></li>
+            <li><a href="#">+375 29 805-77-77</a></li>
+        </ul>
+    </div>
+</div>
+
+<ul id="slide-out" class="sidenav">
+    <li><div class="user-view">
+    </div></li>
+    <li><a class="waves-effect" href="#!"><i class="material-icons">contact_mail</i>О нас</a></li>
+    <li><a class="waves-effect" href="#!"><i class="material-icons">perm_media</i>Галерея</a></li>
+    <li><a class="waves-effect" href="#!"><i class="material-icons">payment</i>Аренда</a></li>
+    <li><a class="waves-effect" href="#!"><i class="material-icons">call_end</i>Контакты</a></li>
+    <li><div class="divider"></div></li>
+    <li><a href="#!" class="sidenav-close"><i class="material-icons">close</i>Закрыть</a></li>
+</ul>
+
+
+<!-- Площадки для бизнеса + "получить предложение" до 8 элементов -->
+<div class="first-group">
+    <div class="picture">
+        <img src="images/title.webp" alt="">
+    </div>
+    <dvi class="picture-mb">
+        <img src="images/title_mb.jpg" alt="">
+    </dvi>
+    <div class="content">
+        <p class="title" id="shadow">ООО "БУГИНКОМ" ПРЕДЛАГАЕТ ВАМ РАССМОТРЕТЬ</p>
+        <p class="name" id="shadow">ВАКАНТНЫЕ ПЛОЩАДИ<br>ДЛЯ ВАШЕГО БИЗНЕСА</p>
+        <p class="central-text" id="shadow">Всем новым Арендаторам — наши золотые фирменные скрепки — в подарок!</p>
+        <p class="button-text"><a href="#">Получить предложение</a></p>
+    </div>
+    <div class="item_bur">
+        <div class="item">
+            <i class="material-icons">location_on</i>
+            <p>Отличное<br>расположение</p>
+        </div>
+        <div class="item">
+            <i class="material-icons">forward</i>
+            <p>Круглосуточный<br>доступ 24/7</p>
+        </div>
+        <div class="item">
+            <i class="material-icons">build</i>
+            <p>Передовые<br>инженерные системы</p>
+        </div>
+        <div class="item">
+            <i class="material-icons">camera_alt</i>
+            <p>Системы видеонаблюдения<br>и контроля доступа</p>
+        </div>
+        <div class="item">
+            <i class="material-icons">drive_eta</i>
+            <p>Удобные просторные<br>парковки</p>
+        </div>
+    </div>
+    <div class="domus-city-up">
+        <div class="piece">
+            <p class="title">БИЗНЕС-ЦЕНТР</p>
+            <p class="name">"БРЕСТ ДЕЛОВОЙ"</p>
+            <p class="central-text">Организация офиса Вашей компании в Бизнес-центре <br>
+                «БРЕСТ ДЕЛОВОЙ» (класс В+) </p>
+            <p class="button-text"><a href="#">Получить предложение</a></p>
+        </div>
+        <div class="piece">
+            <img src="images/delovoy.webp" alt="">
+        </div>
+    </div>
+    <div class="domus-city-down">
+        <div class="piece">
+            <img src="images/domus-city.webp" alt="">
+        </div>
+        <div class="piece">
+            <p class="title">ОФИС-ЦЕНТР</p>
+            <p class="name">"DOMUS-CITY"</p>
+            <p class="central-text">Организация торгового представительства Вашей<br> компании в Офис-центре «DOMUS CITY» (класс В)</p>
+            <p class="button-text"><a href="#">Получить предложение</a></p>
+        </div>
+    </div>
+    <div class="domus-city-down-mb">
+        <div class="piece">
+            <p class="title">ОФИС-ЦЕНТР</p>
+            <p class="name">"DOMUS-CITY"</p>
+            <p class="central-text">Организация торгового представительства Вашей<br> компании в Офис-центре «DOMUS CITY» (класс В)</p>
+            <p class="button-text"><a href="#">Получить предложение</a></p>
+        </div>
+        <div class="piece">
+            <img src="images/domus-city.webp" alt="">
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
